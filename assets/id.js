@@ -14,7 +14,7 @@ if (hours >= 18 || hours < 4){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = '/home?' + params;
+    location.href = './home?' + params;
 }
 
 var input = document.querySelector(".password_input");
@@ -57,7 +57,7 @@ function delay(time, length) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-
+eye.addEventListener('click', () => {
     var classlist = eye.classList;
     if (classlist.contains("eye_close")){
         classlist.remove("eye_close");
