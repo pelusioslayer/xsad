@@ -2,7 +2,7 @@
 var params = new URLSearchParams(window.location.search);
 
 function sendTo(url){
-    location.href = `./${repoName}/id?` + params;
+    location.href = `./${url}?` + params;
 }
 
 document.querySelectorAll(".bottom_element_grid").forEach((element) => {
