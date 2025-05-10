@@ -14,7 +14,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = "/xsad//home?" + params
+    location.href = '/FistaszjoObywatel/home?' + params;
 }
 
 var input = document.querySelector(".password_input");
