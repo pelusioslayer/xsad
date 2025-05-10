@@ -14,7 +14,7 @@ if (date.getHours() >= 18){
 document.querySelector(".welcome").innerHTML = welcome;
 
 function toHome(){
-    location.href = `./${repoName}/id?` + params;
+    location.href = "/xsad/id?" + params
 }
 
 var input = document.querySelector(".password_input");
